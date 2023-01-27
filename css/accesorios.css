@@ -1,0 +1,239 @@
+/*body {
+  background-image: linear-gradient(to top, #1d2433, #415554, #c6e5e7, #ffff);
+}*/
+
+body {
+  background-color: #cfd0d1;
+}
+
+#titacc{
+  font-size: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #1d2433;
+}
+
+.tarjeta-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 15px;
+}
+
+.tarjeta-modelo {
+  background-size: cover;
+  background-position: center center;
+  width: 350px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bt-h3 {
+  text-align: center;
+  background-color: #7fcccb;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(12, 12, 12);
+}
+
+.tarjeta-modelo:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Fotos/Fundas.jpg");
+  padding: 80px;
+}
+
+.tarjeta-modelo:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Fotos/cablesymas.jpg");
+  padding: 80px;
+}
+
+.tarjeta-modelo:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Fotos/proteccion.jpeg");
+  padding: 80px;
+}
+
+.tarjeta-modelo:nth-child(4) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Fotos/auriculares.jpeg");
+  padding: 80px;
+}
+
+.tarjeta-modelo:nth-child(5) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Fotos/Otros.jpg");
+  padding: 80px;
+}
+
+.fsilicona {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.8)),
+    url(/Fotos/Fundas/Silicone.jpg);
+}
+
+.fwalden {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.8)),
+    url(/Fotos/Fundas/Walden.jpg);
+}
+
+.fdisenio {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/Fundas/disenio.jpg);
+}
+
+.mcable {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.8)),
+    url(/Fotos/Cargadores/cables.jpg);
+}
+
+.mcabezal {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.8)),
+    url(/Fotos/Cargadores/IMG_6355.jpg);
+}
+
+.minalambricos {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/Cargadores/inalambrico.jpg);
+}
+
+.mhidrogel {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/hidrogel.jpeg);
+}
+
+.mtempladonueved {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/templadonueve.jpeg);
+}
+
+.mtempladocomun {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/tempcomun.jpeg);
+}
+
+.mairpods {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/auricularespro.jpeg);
+}
+
+.mapods {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/airpodsseg.jpeg);
+}
+
+.mauconcable {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/auricularesconcable.jpg);
+}
+
+.msoporteauto {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/Accesorios/carholder.jpg);
+}
+
+.mcargadoruniversal {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/Accesorios/adaptador\ universal.jpg);
+}
+
+.mbanda {
+  background: linear-gradient(to top, rgb(0 0 0 /0.1), rgb(0 0 0 /0.9)),
+    url(/Fotos/Accesorios/banda\ deportiva.webp);
+}
+
+.modelo {
+  margin-top: 20px;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  width: 70%;
+}
+
+.descripcion h3 {
+  padding-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.secfundas {
+  /*background-color: #c6e5e7;*/
+  padding: 2% 0;
+}
+
+.secargadores {
+  /*background-color: #cfd0d1;*/
+  padding: 2% 0;
+}
+
+.sectemplados {
+  /*background-color: #c6e5e7;*/
+  padding: 2% 0;
+}
+
+.secauriculares {
+  /*background-color: #cfd0d1;*/
+  padding: 2% 0;
+}
+
+@media (min-width: 800px) {
+  .tarjeta-modelo {
+    background-size: cover;
+    background-position: center center;
+    width: 250px;
+    border-radius: 10px;
+    margin: 15px auto;
+  }
+}
+
+@media (min-width: 720px) {
+  .modelo {
+    width: 40%;
+    margin: 5px;
+  }
+
+  .containermodelos {
+    display: flex;
+  }
+
+  #titacc{
+    font-size: 3.0em;
+  }
+
+  #tituloacc {
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+}

@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+#textoequipos {
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.banner-modelo {
+  background-image: linear-gradient(to top, #1d2433, #415554, #c6e5e7, #ffff);
+  text-align: center;
+  margin-top: 20px 0px;
+  padding-top: 15px;
+  height: 90vh;
+  position: relative;
+}
+
+.titulo-equipo {
+  font-size: 1.8em;
+  margin: 10px auto;
+}
+
+.imgageniphone {
+  display: flex;
+  justify-content: center;
+}
+
+.div-img {
+  height: 70vh;
+  padding-bottom: 20px;
+}
+
+#div-img-ipse {
+  padding-bottom: 50px;
+}
+
+#div-img-ip13alt {
+  display: none;
+}
+
+@media (min-width: 720px) and (max-width: 1025px) {
+  #div-img-ip13 {
+    display: none;
+  }
+
+  #div-img-ip13alt {
+    display: block;
+  }
+
+  #div-img-ipse{
+    height: 70vh;
+  }
+
+}
+
+@media (min-width: 720px) {
+  .titulo {
+    font-size: 2.4em;
+    margin-top: 25px;
+  }
+
+  .banner-modelo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-img {
+    height: 90vh;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #bannertrece {
+    width: 100%;
+  }
+
+  #div-img-ip13 {
+    width: auto;
+    margin-bottom: 0%;
+  }
+
+  .textoip13 {
+    margin-right: 20px;
+  }
+}

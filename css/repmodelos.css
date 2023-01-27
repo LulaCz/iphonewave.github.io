@@ -1,0 +1,70 @@
+.textocomun {
+  margin-top: 0.5rem;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+
+.tarjeta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin: 0px 65px;
+}
+
+.tarjeta-modelo {
+  background-color: #c3c9d4;
+  border: #1d2433 solid 3px;
+  border-radius: 15px;
+  margin: 10px 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}
+
+.tarjeta-modelo a {
+  text-decoration: none;
+  color: white;
+}
+
+.tarjeta-modelo a:hover p {
+  color: aqua;
+  font-weight: bolder;
+}
+
+.tarjeta-modelo a:visited {
+  color: white;
+}
+
+.div-img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.tarjeta-modelo p {
+  background-color: #1d2433;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.texto {
+  margin: 20px 40px;
+  text-align: justify;
+  background-color: #e53935;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: green;
+  padding: 15px;
+}
+
+@media (min-width: 720px) {
+  .titulo {
+    font-size: 2.5em;
+    padding-top: 15px;
+    padding-bottom: 8px;
+  }
+}
